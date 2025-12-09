@@ -1,1 +1,1 @@
-# Synthetic Data ICLR 2025 workshop
+# The 3rd Workshop on Navigating and Addressing Data Problems for Foundation Models (DATA-FM) @ ICLR 2026
