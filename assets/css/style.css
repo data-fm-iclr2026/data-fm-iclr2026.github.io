@@ -1160,11 +1160,18 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.team .member .member-img {
+.team .member .member-img,
+.speakers .member-img,
+.organizers .member-img,
+.member-img {
   position: relative;
   overflow: hidden;
-  /* Provide a consistent container height so images crop uniformly */
-  height: 260px;
+  /* Keep containers square on all screen sizes */
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  /* Limit visual size on large screens so cards don't become huge; adjust as desired */
+  max-width: 320px;
+  margin: 0 auto;
 }
 .team .member .member-img img,
 .speakers .member-img img,
@@ -1176,13 +1183,13 @@ section {
   display: block;
 }
 
-/* Mobile-specific tweaks: reduce image height for smaller screens */
+/* Optional: slightly smaller maxima on narrow screens */
 @media (max-width: 768px) {
   .team .member .member-img,
   .speakers .member-img,
   .organizers .member-img,
   .member-img {
-    height: 220px;
+    max-width: 260px;
   }
 }
 
@@ -1191,7 +1198,7 @@ section {
   .speakers .member-img,
   .organizers .member-img,
   .member-img {
-    height: 180px;
+    max-width: 220px;
   }
 }
 .team .member .social {
