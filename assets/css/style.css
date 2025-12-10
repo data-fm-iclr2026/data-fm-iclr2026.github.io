@@ -1163,7 +1163,36 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
- 
+  /* Provide a consistent container height so images crop uniformly */
+  height: 260px;
+}
+.team .member .member-img img,
+.speakers .member-img img,
+.organizers .member-img img,
+.member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Mobile-specific tweaks: reduce image height for smaller screens */
+@media (max-width: 768px) {
+  .team .member .member-img,
+  .speakers .member-img,
+  .organizers .member-img,
+  .member-img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 575px) {
+  .team .member .member-img,
+  .speakers .member-img,
+  .organizers .member-img,
+  .member-img {
+    height: 180px;
+  }
 }
 .team .member .social {
   position: absolute;
