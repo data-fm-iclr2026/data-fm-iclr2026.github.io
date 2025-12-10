@@ -91,12 +91,14 @@ ul.no-bullets {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  /* Keep header transparent by default so the hero/banner image shows behind it */
+  background: transparent;
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
+  /* When scrolled, use the solid color for better readability */
   background: rgba(42, 44, 57, 0.9);
 }
 #header .logo h1 {
@@ -309,7 +311,9 @@ ul.no-bullets {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #C4A484 0%, #33364a 100%);
+  /* Use the Rio image for the large hero/banner with a subtle dark overlay for contrast */
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/brazil/rio-2.jpg') center/cover no-repeat;
+  background-attachment: fixed;
   padding: 0;
 }
 #hero .carousel-container {
