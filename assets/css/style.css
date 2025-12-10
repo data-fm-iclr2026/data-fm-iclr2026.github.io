@@ -379,11 +379,26 @@ ul.no-bullets {
   }
 }
 @media (max-width: 768px) {
+  #hero {
+    background-attachment: scroll;
+  }
   #hero .carousel-container {
     height: 90vh;
   }
   #hero h2 {
     font-size: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero {
+    background-attachment: scroll;
+  }
+  #hero .carousel-container {
+    height: 100vh;
+  }
+  #hero h2 {
+    font-size: 20px;
   }
 }
 
