@@ -1482,3 +1482,18 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+/*--------------------------------------------------------------
+# Sponsors Section
+--------------------------------------------------------------*/
+.sponsors {
+  padding: 60px 0;
+}
+
+.sponsor-logo {
+  max-height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  transform: scale(1.05);
+}
