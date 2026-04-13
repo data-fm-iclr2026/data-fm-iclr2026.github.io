@@ -509,6 +509,12 @@
               <td>
                 Oral Presentation 1: <a href="https://mayeechen.github.io/" target="_blank">Mayee Chen</a> 📊 <br />
                 <b>Olmix: A Framework for Data Mixing Throughout LM Development</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Data mixing&mdash;determining the ratios of data from different domains&mdash;is a first-order concern for training language models (LMs), but existing mixing methods have poorly understood design choices and assume that the set of domains remain fixed throughout development. We present Olmix, a framework that addresses two challenges encountered during LM development. First, the configuration space for developing a mixing method is not well understood&mdash;design choices across existing methods lack justification or consensus and overlook practical issues like data constraints. We conduct a comprehensive empirical study of this space, identifying which design choices lead to a strong mixing method. Second, the domain set evolves throughout LM development as datasets are revised and expanded&mdash;a problem setting largely unaddressed by existing works. We study how to efficiently recompute the mixture after the domain set is updated, given an existing mix from before the update. We introduce mixture reuse, a mechanism that reuses existing relative ratios and recomputes ratios only for domains affected by an update. Over a sequence of five domain-set updates mirroring real-world LM development, mixture reuse matches the performance of fully recomputing the mix after each update with 74% less compute and improves over training without mixing by 11.6% on downstream tasks.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -516,6 +522,12 @@
               <td>
                 Oral Presentation 2: <a href="https://scholar.google.ca/citations?user=PtYiVrQAAAAJ&hl=en&oi=ao" target="_blank">Narmeen Fatimah Oozeer</a> 📊 <br />
                 <b>The Capability Frontier: Benchmarks Miss 82% of Model Performance</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Existing benchmarks typically report accuracy for a single model on a single run. This systematically understates real-world LLM capabilities, particularly under heterogeneous data distributions: (i) different models get different questions correct according to their specializations, and (ii) given a budget, multiple generations can be sampled and selectively retained. To quantify this gap, we introduce the Capability Frontier: a Pareto frontier over a set of models that characterizes the best achievable performance at each cost level under optimal selection across models and generations (i.e., via an oracle). Our construction corrects for two opposing biases: underestimation from single-model evaluation and overestimation from taking maxima over noisy samples. We study 21 LLMs across 16 widely used benchmarks spanning coding, reasoning, medicine, factuality, instruction following, and agentic tasks, comparing Capability Frontier performance at matched cost to each benchmark's top-performing model. Correcting for single-model evaluation yields a 54% error rate reduction; additionally correcting for single runs yields an 82% improvement, with SOTA accuracy matched at 85% cost reduction. Complementing these empirical results, we use controlled probabilistic simulations to show that higher query topic entropy produces a near-monotonic increase in the performance gap between oracle routing and the best single model. Our findings suggest collective LLM capabilities are substantially underestimated, with implications for evaluation and deployment in data-heterogeneous, multi-domain settings.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -523,6 +535,12 @@
               <td>
                 Oral Presentation 3: <a href="http://kunaltalwar.org/" target="_blank">Kunal Talwar</a> 📊 <br />
                 <b>Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Large language models (LLMs) can struggle to memorize factual knowledge in their parameters, often leading to hallucinations and poor performance on knowledge-intensive tasks. In this paper, we formalize fact memorization from an information-theoretic perspective and study how training data distributions affect fact accuracy. We show that fact accuracy is suboptimal (below the capacity limit) whenever the amount of information contained in the training data facts exceeds model capacity. This is further exacerbated when the fact frequency distribution is skewed (e.g. a power law). We propose data selection schemes based on the training loss alone that aim to limit the number of facts in the training data and flatten their frequency distribution. On semi-synthetic datasets containing high-entropy facts, our selection method effectively boosts fact accuracy to the capacity limit. When pretraining language models from scratch on an annotated Wikipedia corpus, our selection method enables a GPT2-Small model (110m parameters) to memorize 1.3X more entity facts compared to standard training, matching the performance of a 10X larger model (1.3B parameters) pretrained on the full dataset.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -553,6 +571,12 @@
               <td>
                 Oral Presentation 4: <a href="https://jacqueline-he.github.io/" target="_blank">Jacqueline He</a> 📊 <br />
                 <b>Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Modern language models (LMs) tend to memorize portions of their training data and reproduce verbatim spans. When the underlying sources are sensitive or copyright-protected, such reproduction raises issues of consent and compensation for creators and compliance risks for developers. We propose ANCHORED DECODING, a plug-and-play inference-time method for suppressing verbatim reproduction: it enables decoding from any risky LM trained on mixed-license data by keeping generation in bounded proximity to a permissively trained safe LM. ANCHORED DECODING does so by adaptively allocating a user-chosen information budget over the generation trajectory and enforcing per-step constraints that yield a sequence-level guarantee, enabling a tunable risk&ndash;utility trade-off. To make ANCHORED DECODING practically useful, we introduce a new permissively trained safe model (TinyComma 1.8B), as well as ANCHORED_Byte DECODING, a bytelevel variant of our method that enables cross-vocabulary fusion via the ByteSampler framework (Hayase et al., 2025). We evaluate our methods across six model pairs on long-form evaluations of copyright risk and utility. ANCHORED and ANCHORED_Byte DECODING define a new Pareto frontier, preserving near-original fluency and factuality while eliminating up to 75% of the measurable copying gap (averaged over six copying metrics) between the risky baseline and a safe reference, at a modest inference overhead.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -560,6 +584,12 @@
               <td>
                 Oral Presentation 5: <a href="https://arshiaafzal.github.io/" target="_blank">Arshia Afzal</a> 📊 <br />
                 <b>Multi-Modal Data Mixtures via Latent Space Coupling for Vision-Language Model Training</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Vision-Language Models (VLMs) are typically trained on a diverse set of multi-modal domains, yet current practices rely on costly manual tuning. We propose MaD-Mix, a principled and computationally efficient framework that derives multi-modal data mixtures for VLM training. MaD-Mix formulates data mixing as modality-aware domain alignment maximization and obtains closed-form multi-modal alignment scores from the Fenchel dual through inter-modal coupling variables. MaD-Mix systematically handles domains with missing modalities, allowing for the integration of language-only domains. Empirical evaluations across 0.5B and 7B models demonstrate that MaD-Mix accelerates VLM training across diverse benchmarks. MaD-Mix matches human-tuned data mixtures using 22% fewer training steps in image-text instruction tuning. In complex tri-modal video-image-text scenarios, where manual tuning becomes impractical, MaD-Mix boosts average accuracy over uniform weights, with negligible mixture computation overhead (&lt;1 GPU-hour), enabling scalable mixture design for modern VLM pipelines.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -567,6 +597,12 @@
               <td>
                 Oral Presentation 6: <a href="https://scholar.google.com/citations?user=ZI3sz1QAAAAJ&hl=en" target="_blank">Maximilian Idahl</a> 📊 <br />
                 <b>propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Large language models (LLMs) can struggle to memorize factual knowledge in their parameters, often leading to hallucinations and poor performance on knowledge-intensive tasks. In this paper, we formalize fact memorization from an information-theoretic perspective and study how training data distributions affect fact accuracy. We show that fact accuracy is suboptimal (below the capacity limit) whenever the amount of information contained in the training data facts exceeds model capacity. This is further exacerbated when the fact frequency distribution is skewed (e.g. a power law). We propose data selection schemes based on the training loss alone that aim to limit the number of facts in the training data and flatten their frequency distribution. On semi-synthetic datasets containing high-entropy facts, our selection method effectively boosts fact accuracy to the capacity limit. When pretraining language models from scratch on an annotated Wikipedia corpus, our selection method enables a GPT2-Small model (110m parameters) to memorize 1.3X more entity facts compared to standard training, matching the performance of a 10X larger model (1.3B parameters) pretrained on the full dataset.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -579,7 +615,13 @@
               <td>3:20 - 3:50 PM</td>
               <td>
                 Invited Talk: <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank">Fred Sala</a> 🤝🗣️ <br />
-                <b>TBD</b>
+                <b>The Art & Science of Benchmarking Agents</b>
+                <details style="margin-top: 5px;">
+                  <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                  <p style="margin-top: 5px; font-size: 0.95em;">
+                    Our ability to measure AI has been outpaced by our ability to develop it, and this eval gap is one of the most important problems in AI. We need more enduring benchmarks to close this gap, and consequently advance entire new vectors of capabilities for the field. In this talk, I'll share our insights into evaluating agents, drawing from experience working with nearly all frontier labs and many of our academic collaborators. We'll discuss the science (i.e., mechanics that make benchmarks rigorous and effective) and art (i.e., intangibles driving ambitious and enduring benchmarks) of building great benchmarks. I'll close by sharing some of the learnings from Open Benchmarks Grants&mdash; a $3M initiative in partnership with Hugging Face, Together AI, Prime Intellect, Factory, and others&mdash; and highlighting some of the projects we're most excited about funding.
+                  </p>
+                </details>
               </td>
             </tr>
             <tr>
@@ -1012,12 +1054,20 @@
             <h2>Sponsors</h2>
             <p>Sponsors</p>
          </div>
-         <div class="row" data-aos="fade-up">
-           <div class="col-lg-3 col-md-6 d-flex align-items-center">
-             <img src="assets/img/sponsor/snorkel_new.png" class="img-fluid sponsor-logo" alt="Snorkel AI">
+         <div class="row justify-content-center" data-aos="fade-up">
+           <!-- Diamond Sponsor -->
+           <div class="col-lg-5 col-md-6 text-center" style="padding: 20px;">
+             <h4 style="font-weight: 700; margin-bottom: 20px; background: linear-gradient(135deg, #1a3c7a, #5b9bd5, #1a3c7a, #87ceeb, #1a3c7a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Diamond Sponsor</h4>
+             <div class="d-flex align-items-center justify-content-center" style="min-height: 120px;">
+               <img src="assets/img/sponsor/snorkel_new.png" class="img-fluid sponsor-logo" alt="Snorkel AI" style="max-height: 120px;">
+             </div>
            </div>
-           <div class="col-lg-3 col-md-6 d-flex align-items-center offset-lg-1">
-             <img src="assets/img/sponsor/datology.png" class="img-fluid sponsor-logo" alt="Datology AI">
+           <!-- Gold Sponsor -->
+           <div class="col-lg-5 col-md-6 text-center" style="padding: 20px;">
+             <h4 style="color: #E8B84B; font-weight: 700; margin-bottom: 20px;">Gold Sponsor</h4>
+             <div class="d-flex align-items-center justify-content-center" style="min-height: 120px;">
+               <img src="assets/img/sponsor/datology.png" class="img-fluid sponsor-logo" alt="Datology AI" style="max-height: 90px;">
+             </div>
            </div>
          </div>
        </div>
