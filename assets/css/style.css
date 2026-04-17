@@ -140,12 +140,15 @@ ul.no-bullets {
 .navbar li {
   position: relative;
 }
+.navbar li:first-child {
+  margin-left: 40px;
+}
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 15px 7px 15px;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 16px;
   color: #fff;
   white-space: nowrap;
