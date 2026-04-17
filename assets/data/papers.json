@@ -1,0 +1,1711 @@
+[
+  {
+    "number": 3,
+    "title": "[Short] Max It or Miss It: Benchmarking LLM On Solving Extremal Problems",
+    "authors": [
+      "Binxin Gao",
+      "Jingjun Han"
+    ],
+    "forum_url": "https://openreview.net/forum?id=CcUEX8yOeT",
+    "decision": "Accept"
+  },
+  {
+    "number": 4,
+    "title": "MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources",
+    "authors": [
+      "Huu Nguyen",
+      "Victor May",
+      "Harsh Raj",
+      "Marianna Nezhurina",
+      "Yishan Wang",
+      "Yanqi Luo",
+      "Vu Minh Chien",
+      "Taishi Nakamura",
+      "Ken Tsui",
+      "Van Khue Nguyen",
+      "David Salinas",
+      "Aleksandra Krasnodębska",
+      "Christoph Schuhmann",
+      "Mats Leon Richter",
+      "Xuan-Son Vu",
+      "Jenia Jitsev"
+    ],
+    "forum_url": "https://openreview.net/forum?id=xuYhTNhE8w",
+    "decision": "Accept"
+  },
+  {
+    "number": 5,
+    "title": "Language Self-Play For Data-Free Training",
+    "authors": [
+      "Jakub Grudzien Kuba",
+      "Mengting Gu",
+      "Qi Ma",
+      "Yuandong Tian",
+      "Vijai Mohan",
+      "Chun-cheng Jason Chen"
+    ],
+    "forum_url": "https://openreview.net/forum?id=B8Q4Wgz6ck",
+    "decision": "Accept"
+  },
+  {
+    "number": 7,
+    "title": "Structured Captions Improve Prompt Adherence in Text-to-Image Models (Re-LAION-Caption 19M)",
+    "authors": [
+      "Nicholas Merchant",
+      "Haitz Sáez de Ocáriz Borde",
+      "Andrei Cristian Popescu",
+      "Carlos Garcia Jurado Suarez"
+    ],
+    "forum_url": "https://openreview.net/forum?id=qJH3lG5Kqi",
+    "decision": "Accept"
+  },
+  {
+    "number": 10,
+    "title": "DUMP: Distribution-Level Curriculum Learning for RL-based LLM Post-training",
+    "authors": [
+      "Zhenting Wang",
+      "Guofeng Cui",
+      "Yu-Jhe Li",
+      "Kun Wan",
+      "Wentian Zhao"
+    ],
+    "forum_url": "https://openreview.net/forum?id=ILjb8TnGJa",
+    "decision": "Accept"
+  },
+  {
+    "number": 11,
+    "title": "Federated Agent Reinforcement Learning",
+    "authors": [
+      "Canyu Chen",
+      "Kangyu Zhu",
+      "Zhaorun Chen",
+      "Zhanhui Zhou",
+      "Shizhe Diao",
+      "Yiping Lu",
+      "Tian Li",
+      "Manling Li",
+      "Dawn Song"
+    ],
+    "forum_url": "https://openreview.net/forum?id=bKNQU6S33D",
+    "decision": "Accept"
+  },
+  {
+    "number": 12,
+    "title": "Beyond Training for Cultural Awareness: The Role of Dataset Linguistic Structure in Large Language Models",
+    "authors": [
+      "Reem I. Masoud",
+      "Chen Feng",
+      "Shunta Asano",
+      "Saied Alshahrani",
+      "Philip Colin Treleaven",
+      "Miguel R. D. Rodrigues"
+    ],
+    "forum_url": "https://openreview.net/forum?id=5Tbs4WQw7j",
+    "decision": "Accept"
+  },
+  {
+    "number": 13,
+    "title": "SynQuE: Estimating Synthetic Dataset Quality Without Annotations",
+    "authors": [
+      "Arthur Chen",
+      "Victor Zhong"
+    ],
+    "forum_url": "https://openreview.net/forum?id=d7oKrvqdfR",
+    "decision": "Accept"
+  },
+  {
+    "number": 16,
+    "title": "Open LLM Projects Should Allocate More Compute for Data Than Training",
+    "authors": [
+      "Maximilian Idahl"
+    ],
+    "forum_url": "https://openreview.net/forum?id=YdvGgmIJRH",
+    "decision": "Accept"
+  },
+  {
+    "number": 17,
+    "title": "Are Easier or Harder Examples Better? Rethinking Data Selection for Reward Models and Preference Optimization",
+    "authors": [
+      "Kevin Christian Wibisono",
+      "Aya Abdelsalam Ismail",
+      "Pedro O. Pinheiro",
+      "Yixin Wang",
+      "Kyunghyun Cho",
+      "Natasa Tagasovska",
+      "Rajesh Ranganath"
+    ],
+    "forum_url": "https://openreview.net/forum?id=f0NloYIgEu",
+    "decision": "Accept"
+  },
+  {
+    "number": 19,
+    "title": "An Empirical Study on Noisy Data and LLM Pretraining Loss Divergence",
+    "authors": [
+      "Qizhen Zhang",
+      "Ankush Garg",
+      "Jakob Nicolaus Foerster",
+      "Niladri S. Chatterji",
+      "Kshitiz Malik",
+      "Mike Lewis"
+    ],
+    "forum_url": "https://openreview.net/forum?id=899gXLVCmV",
+    "decision": "Accept"
+  },
+  {
+    "number": 23,
+    "title": "ROSER: Few-Shot Robotic Sequence Retrieval for Scalable Robot Learning",
+    "authors": [
+      "Zillur Rahman",
+      "Eddison Pham",
+      "Alejandro Daniel Noel",
+      "Cristian Meo"
+    ],
+    "forum_url": "https://openreview.net/forum?id=W7B5wm9M9e",
+    "decision": "Accept"
+  },
+  {
+    "number": 24,
+    "title": "Escaping Model Collapse via Synthetic Data Verification:  Near-term Improvements and Long-term Convergence",
+    "authors": [
+      "Bingji Yi",
+      "Qiyuan Liu",
+      "Yuwei Cheng",
+      "Haifeng Xu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=nvSAptX3Ju",
+    "decision": "Accept"
+  },
+  {
+    "number": 25,
+    "title": "The Era of Real-World Human Interaction: RL from User Conversations",
+    "authors": [
+      "Chuanyang Jin",
+      "Jing Xu",
+      "Bo Liu",
+      "Leitian Tao",
+      "Olga Golovneva",
+      "Tianmin Shu",
+      "Wenting Zhao",
+      "Xian Li",
+      "Jason E Weston"
+    ],
+    "forum_url": "https://openreview.net/forum?id=PRsVL3lqcm",
+    "decision": "Accept"
+  },
+  {
+    "number": 26,
+    "title": "Measuring Dataset Diversity from a Geometric Perspective",
+    "authors": [
+      "Yang Ba",
+      "Mohammad Sadeq Abolhasani",
+      "Michelle V Mancenido",
+      "Rong Pan"
+    ],
+    "forum_url": "https://openreview.net/forum?id=iWVfsnMTmK",
+    "decision": "Accept"
+  },
+  {
+    "number": 28,
+    "title": "Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks",
+    "authors": [
+      "Lorenzo Rossi",
+      "Kaif Shaikh",
+      "Franziska Boenisch",
+      "Adam Dziedzic"
+    ],
+    "forum_url": "https://openreview.net/forum?id=9Q5YHXfxId",
+    "decision": "Accept"
+  },
+  {
+    "number": 29,
+    "title": "Guess the unified model: Domain and Linguistic Effects in Generated Images",
+    "authors": [
+      "Jasin Cekinmez",
+      "Ryo Mitsuhashi",
+      "Yida Yin"
+    ],
+    "forum_url": "https://openreview.net/forum?id=QhXV6RDQ11",
+    "decision": "Accept"
+  },
+  {
+    "number": 37,
+    "title": "The Capability Frontier: Benchmarks Miss 82% of Model Performance",
+    "authors": [
+      "Bradley Fowler",
+      "Ryan Smith",
+      "Daniel Thi Graviet",
+      "William Myers",
+      "Joshua Greaves",
+      "Narmeen Fatimah Oozeer",
+      "Antía García",
+      "Philip Quirke",
+      "Fazl Barez",
+      "Amir Abdullah",
+      "Shriyash Kaustubh Upadhyay"
+    ],
+    "forum_url": "https://openreview.net/forum?id=iV1TS1z1up",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 38,
+    "title": "Configuration-to-Performance Scaling Law with Neural Ansatz",
+    "authors": [
+      "Huaqing Zhang",
+      "Kaiyue Wen",
+      "Tengyu Ma"
+    ],
+    "forum_url": "https://openreview.net/forum?id=a5APvqMaQZ",
+    "decision": "Accept"
+  },
+  {
+    "number": 39,
+    "title": "Hierarchical Agenda Reasoning for Strategic Multi-Turn Dialogue Agents",
+    "authors": [
+      "Marwa Abdulhai",
+      "Ryan Cheng",
+      "Aryansh Shrivastava",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "forum_url": "https://openreview.net/forum?id=3OJJcwvWk0",
+    "decision": "Accept"
+  },
+  {
+    "number": 40,
+    "title": "Shape of Thought: When Distribution Matters More than Correctness in Reasoning Tasks",
+    "authors": [
+      "Abhranil Chandra",
+      "Ayush Agrawal",
+      "Arian Hosseini",
+      "Sebastian Fischmeister",
+      "Rishabh Agarwal",
+      "Navin Goyal",
+      "Aaron Courville"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Tat6sJVSYw",
+    "decision": "Accept"
+  },
+  {
+    "number": 41,
+    "title": "ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality",
+    "authors": [
+      "Shayne Longpre",
+      "Sneha Kudugunta",
+      "Niklas Muennighoff",
+      "I-Hung Hsu",
+      "Isaac Rayburn Caswell",
+      "Alex Pentland",
+      "Sercan O Arik",
+      "Chen-Yu Lee",
+      "Sayna Ebrahimi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Q07GJKvTjK",
+    "decision": "Accept"
+  },
+  {
+    "number": 43,
+    "title": "Greedy Information Projection for LLM Data Selection",
+    "authors": [
+      "Victor Ye Dong",
+      "Kuan-Yun Lee",
+      "Jiamei Shuai",
+      "Shengfei Liu",
+      "Yi Liu",
+      "Jian Jiao"
+    ],
+    "forum_url": "https://openreview.net/forum?id=MJX2Od0QF5",
+    "decision": "Accept"
+  },
+  {
+    "number": 44,
+    "title": "TutorBench: A Benchmark To Assess Tutoring Capabilities Of Large Language Models",
+    "authors": [
+      "Rakshith Sharma Srinivasa",
+      "Zora Che",
+      "Chen Bo Calvin Zhang",
+      "Diego A. Mares Buendia",
+      "Ernesto Gabriel Hernández Montoya",
+      "Jayeon Park",
+      "Dean Lee",
+      "Guillermo A. Mangialardi",
+      "Charmaine Ng",
+      "Ed-Yeremai Hernandez-Cardona",
+      "Anisha Gunjal",
+      "Yunzhong He",
+      "Bing Liu",
+      "Chen Xing"
+    ],
+    "forum_url": "https://openreview.net/forum?id=g2atlHrP0z",
+    "decision": "Accept"
+  },
+  {
+    "number": 45,
+    "title": "Data Selection for Fine-tuning Vision Language Models via Cross Modal Alignment Trajectories",
+    "authors": [
+      "Dang Nguyen",
+      "Nilay Naharas",
+      "Neslihan Bulut",
+      "Mohammadhossein Bateni",
+      "Vahab Mirrokni",
+      "Baharan Mirzasoleiman"
+    ],
+    "forum_url": "https://openreview.net/forum?id=0uZdxTjY8C",
+    "decision": "Accept"
+  },
+  {
+    "number": 47,
+    "title": "OR-LLM-Bench: A Pipeline for Scalable and Verifiable Text-to-Optimization Synthesis",
+    "authors": [
+      "Zhiqi Gao",
+      "Albert Ge",
+      "Alexander Michael Berenbeim",
+      "Nathaniel D. Bastian",
+      "Frederic Sala"
+    ],
+    "forum_url": "https://openreview.net/forum?id=g3fH6lKMi1",
+    "decision": "Accept"
+  },
+  {
+    "number": 48,
+    "title": "Context-Aware Criteria Generation with VLMs for Advertisement Ranking under Data Scarcity",
+    "authors": [
+      "Kyungho Kim",
+      "Yeonje Choi",
+      "Gyurim Hwang",
+      "Sejin Chung",
+      "Hongseok Lee",
+      "Myeong Ho Song",
+      "Yeongho Kim",
+      "Sunwoo Kim",
+      "Jongha Lee",
+      "Juyeon Kim",
+      "Kijung Shin"
+    ],
+    "forum_url": "https://openreview.net/forum?id=QnFwLLRyPV",
+    "decision": "Accept"
+  },
+  {
+    "number": 49,
+    "title": "OPUS: Towards Principled and Scalable Data Selection for Large Language Model Pre-training in Every Iteration",
+    "authors": [
+      "Shaobo Wang",
+      "Xuan Ouyang",
+      "Tianyi Xu",
+      "Yuzheng Hu",
+      "Jialin Liu",
+      "Guo Chen",
+      "Tianyu Zhang",
+      "Junhao Zheng",
+      "Kexin Yang",
+      "Xingzhang Ren",
+      "Dayiheng Liu",
+      "Linfeng Zhang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=FEfuE1mAB6",
+    "decision": "Accept"
+  },
+  {
+    "number": 50,
+    "title": "PluRel: Synthetic Data unlocks Scaling Laws for Relational Foundation Models",
+    "authors": [
+      "Vignesh Kothapalli",
+      "Rishabh Ranjan",
+      "Valter Hudovernik",
+      "Vijay Prakash Dwivedi",
+      "Johannes Hoffart",
+      "Carlos Guestrin",
+      "Jure Leskovec"
+    ],
+    "forum_url": "https://openreview.net/forum?id=iti7t2oI85",
+    "decision": "Accept"
+  },
+  {
+    "number": 51,
+    "title": "Winning the Pruning Gamble: A Unified Approach to Joint Sample and Token Pruning for Efficient Supervised Fine-Tuning",
+    "authors": [
+      "Shaobo Wang",
+      "Jiaming Wang",
+      "Jiajun Zhang",
+      "Cong Wang",
+      "Yue Min",
+      "Zichen Wen",
+      "Xingzhang Ren",
+      "Fei Huang",
+      "Huiqiang Jiang",
+      "Junyang Lin",
+      "Dayiheng Liu",
+      "Linfeng Zhang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=1ZzCzddCpB",
+    "decision": "Accept"
+  },
+  {
+    "number": 52,
+    "title": "MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?",
+    "authors": [
+      "Xingze Zou",
+      "Jing Wang",
+      "Yuhua Zheng",
+      "Xueyi Chen",
+      "Haolei Bai",
+      "Lingcheng Kong",
+      "Syed A.R. Abu-Bakar",
+      "Zhaode Wang",
+      "chengfei lv",
+      "Haoji Hu",
+      "Huan Wang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=bTsMfGz85R",
+    "decision": "Accept"
+  },
+  {
+    "number": 53,
+    "title": "Hubble: a Model Suite to Advance the Study of LLM Memorization",
+    "authors": [
+      "Johnny Wei",
+      "Ameya Godbole",
+      "Mohammad Aflah Khan",
+      "Ryan Yixiang Wang",
+      "Xiaoyuan Zhu",
+      "James Flemings",
+      "Nitya Kashyap",
+      "Krishna P. Gummadi",
+      "Willie Neiswanger",
+      "Robin Jia"
+    ],
+    "forum_url": "https://openreview.net/forum?id=EJqSt99FJo",
+    "decision": "Accept"
+  },
+  {
+    "number": 54,
+    "title": "When do Score-Based Data Valuation Methods Work, and Why?",
+    "authors": [
+      "Kumar Kshitij Patel",
+      "Sai Praneeth Karimireddy",
+      "Raul Castro Fernandez",
+      "Manolis Zampetakis"
+    ],
+    "forum_url": "https://openreview.net/forum?id=izu3azyS1O",
+    "decision": "Accept"
+  },
+  {
+    "number": 56,
+    "title": "Optimal Splitting of Language Models from Mixtures to Specialized Domains",
+    "authors": [
+      "Skyler Seto",
+      "Pierre Ablin",
+      "Anastasiia Filippova",
+      "Jiayuan Ye",
+      "Louis Béthune",
+      "Angelos Katharopoulos",
+      "David Grangier"
+    ],
+    "forum_url": "https://openreview.net/forum?id=jouSp5cLqC",
+    "decision": "Accept"
+  },
+  {
+    "number": 57,
+    "title": "COMBATING DATA LAUNDERING IN LLM TRAINING",
+    "authors": [
+      "Muxing Li",
+      "Zesheng Ye",
+      "Sharon Li",
+      "Feng Liu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=JEQaXgigtu",
+    "decision": "Accept"
+  },
+  {
+    "number": 58,
+    "title": "Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts",
+    "authors": [
+      "Jiayuan Ye",
+      "Vitaly Feldman",
+      "Kunal Talwar"
+    ],
+    "forum_url": "https://openreview.net/forum?id=P0fB2DZlcL",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 59,
+    "title": "LEGALMIDM: Use-Case-Driven Legal Domain Specialization for Korean Large Language Model",
+    "authors": [
+      "Youngjoon Jang",
+      "Chanhee Park",
+      "Hyeonseok Moon",
+      "Young-kyoung Ham",
+      "jiwon moon",
+      "Jinhyeon Kim",
+      "JuKyung Jung",
+      "Heuiseok Lim"
+    ],
+    "forum_url": "https://openreview.net/forum?id=XqjuAdSVFq",
+    "decision": "Accept"
+  },
+  {
+    "number": 60,
+    "title": "AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation",
+    "authors": [
+      "Xianyang Liu",
+      "Yilin LIU",
+      "Shuai Wang",
+      "Hao Cheng",
+      "Andrew Estornell",
+      "Yuzhi Zhao",
+      "Jun Shu",
+      "Jiaheng Wei"
+    ],
+    "forum_url": "https://openreview.net/forum?id=wrOXg95VoF",
+    "decision": "Accept"
+  },
+  {
+    "number": 61,
+    "title": "Is More Data Worth the Cost? Dataset Scaling Laws in a Tiny Attention-Only Decoder",
+    "authors": [
+      "Götz-Henrik Wiegand",
+      "Lorena Raichle",
+      "Rico Staedeli",
+      "Tomas Hrycej",
+      "Bernhard Bermeitinger",
+      "Siegfried Handschuh"
+    ],
+    "forum_url": "https://openreview.net/forum?id=NWXflgOD5D",
+    "decision": "Accept"
+  },
+  {
+    "number": 62,
+    "title": "Test-Time Meta-Adaptation with Self-Synthesis",
+    "authors": [
+      "Zeyneb N. Kaya",
+      "Nick Rui"
+    ],
+    "forum_url": "https://openreview.net/forum?id=A9DcY1ZO1T",
+    "decision": "Accept"
+  },
+  {
+    "number": 64,
+    "title": "Unmasking LAION-5B: Age, Gender, Race, and Emotion Biases in Large-Scale Image Datasets",
+    "authors": [
+      "Iris Dominguez-Catena",
+      "Mikel Galar",
+      "Daniel Paternain"
+    ],
+    "forum_url": "https://openreview.net/forum?id=3a6zVM2iBl",
+    "decision": "Accept"
+  },
+  {
+    "number": 67,
+    "title": "Data Provenance for Image Auto-Regressive Generation",
+    "authors": [
+      "Bihe Zhao",
+      "Louis Kerner",
+      "Michel Meintz",
+      "Tameem Bakr",
+      "Franziska Boenisch",
+      "Adam Dziedzic"
+    ],
+    "forum_url": "https://openreview.net/forum?id=0TYsPegdmS",
+    "decision": "Accept"
+  },
+  {
+    "number": 68,
+    "title": "Toward Evaluating Model Collapse in LLMs: Insights from Continual Pretraining",
+    "authors": [
+      "Kristian Minchev",
+      "Anton Alexandrov",
+      "Martin Vechev",
+      "Nikola Konstantinov"
+    ],
+    "forum_url": "https://openreview.net/forum?id=c1yJSRahCt",
+    "decision": "Accept"
+  },
+  {
+    "number": 69,
+    "title": "Learning from Synthetic Data Improves Multi-hop Reasoning",
+    "authors": [
+      "Anmol Kabra",
+      "Yilun Yin",
+      "Albert Gong",
+      "Kamilė Stankevičiūtė",
+      "Dongyoung Go",
+      "Johann Lee",
+      "Katie Z Luo",
+      "Carla P Gomes",
+      "Kilian Q Weinberger"
+    ],
+    "forum_url": "https://openreview.net/forum?id=iyEOefT4qM",
+    "decision": "Accept"
+  },
+  {
+    "number": 70,
+    "title": "Task Scarcity and Label Leakage in Relational Transfer Learning",
+    "authors": [
+      "Francisco Galuppo Azevedo",
+      "Clarissa Lima Loures",
+      "Denis Oliveira Correa"
+    ],
+    "forum_url": "https://openreview.net/forum?id=nI2nsMMHXp",
+    "decision": "Accept"
+  },
+  {
+    "number": 71,
+    "title": "Rethinking Data Selection: The Importance of Coverage over Difficulty in Generative Fine-Tuning",
+    "authors": [
+      "Lalchand Pandia",
+      "Kanishka Misra",
+      "Allyson Ettinger"
+    ],
+    "forum_url": "https://openreview.net/forum?id=qImiy98UhN",
+    "decision": "Accept"
+  },
+  {
+    "number": 72,
+    "title": "[Short] Exploration into gradient-based coreset methods for targeted subset selection",
+    "authors": [
+      "Evelyn Zhu",
+      "Neha Hulkund",
+      "Sara Beery"
+    ],
+    "forum_url": "https://openreview.net/forum?id=kAZNdC20hi",
+    "decision": "Accept"
+  },
+  {
+    "number": 73,
+    "title": "Evaluating Language Models in Realistic Conversational Contexts",
+    "authors": [
+      "Ilija Subasic",
+      "Andrew Rabinovich",
+      "Zhao Chen"
+    ],
+    "forum_url": "https://openreview.net/forum?id=SjNqYRowwz",
+    "decision": "Accept"
+  },
+  {
+    "number": 74,
+    "title": "Infusion: Shaping Model Behavior by Editing Training Data via Influence Functions",
+    "authors": [
+      "J Rosser",
+      "Robert Kirk",
+      "Edward Grefenstette",
+      "Jakob Nicolaus Foerster",
+      "Laura Ruis"
+    ],
+    "forum_url": "https://openreview.net/forum?id=T6R3Bzh3UB",
+    "decision": "Accept"
+  },
+  {
+    "number": 75,
+    "title": "Resource-Adaptive Federated Text Generation with Differential Privacy",
+    "authors": [
+      "Jiayi Wang",
+      "John Gounley",
+      "Heidi Hanson"
+    ],
+    "forum_url": "https://openreview.net/forum?id=zdZCUJGJ9X",
+    "decision": "Accept"
+  },
+  {
+    "number": 76,
+    "title": "Overcoming the Scarcity of Verifiable Reasoning Data with Decision Pivots",
+    "authors": [
+      "Dongkyu Cho",
+      "Amy B.Z. Zhang",
+      "Bilel Fehri",
+      "Sheng Wang",
+      "Rumi Chunara",
+      "Hengrui Cai",
+      "Rui Song"
+    ],
+    "forum_url": "https://openreview.net/forum?id=pU08kZb10v",
+    "decision": "Accept"
+  },
+  {
+    "number": 77,
+    "title": "Query-based Model Collaboration Enables Expert-level Clinical Text Augmentation",
+    "authors": [
+      "Dongkyu Cho",
+      "Miao Zhang",
+      "Gregory D Lyng",
+      "Rumi Chunara"
+    ],
+    "forum_url": "https://openreview.net/forum?id=qlNlILuLK0",
+    "decision": "Accept"
+  },
+  {
+    "number": 78,
+    "title": "ImageNet-Think-250K: A Large-Scale Synthetic Dataset for Multimodal Reasoning for Vision Language Models",
+    "authors": [
+      "Krishna Teja Chitty-Venkata",
+      "Murali Emani"
+    ],
+    "forum_url": "https://openreview.net/forum?id=9NtmeRRRsm",
+    "decision": "Accept"
+  },
+  {
+    "number": 79,
+    "title": "EPSVec: Efficient and Private Synthetic Data Generation via Dataset Vectors",
+    "authors": [
+      "Amin Banayeeanzade",
+      "Qingchuan Yang",
+      "Deqing Fu",
+      "Spencer Hong",
+      "Erin Babinsky",
+      "Alfy Samuel",
+      "Anoop Kumar",
+      "Robin Jia",
+      "Sai Praneeth Karimireddy"
+    ],
+    "forum_url": "https://openreview.net/forum?id=4IBiMmA2Gg",
+    "decision": "Accept"
+  },
+  {
+    "number": 81,
+    "title": "DSGym: A Standardized and Holistic Framework for Advancing Data Science Agents",
+    "authors": [
+      "Fan Nie",
+      "Junlin Wang",
+      "Harper Hua",
+      "Federico Bianchi",
+      "Yongchan Kwon",
+      "Zhenting Qi",
+      "Owen Queen",
+      "Shang Zhu",
+      "James Zou"
+    ],
+    "forum_url": "https://openreview.net/forum?id=5t0nVFY1Ld",
+    "decision": "Accept"
+  },
+  {
+    "number": 82,
+    "title": "[SHORT] Less is More: On Data Redundancy in VLA Training",
+    "authors": [
+      "Kevin Yang",
+      "Tony Yang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=bG8gPlSYvg",
+    "decision": "Accept"
+  },
+  {
+    "number": 83,
+    "title": "Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model",
+    "authors": [
+      "Jacqueline He",
+      "Jonathan Hayase",
+      "Wen-tau Yih",
+      "Sewoong Oh",
+      "Luke Zettlemoyer",
+      "Pang Wei Koh"
+    ],
+    "forum_url": "https://openreview.net/forum?id=63Is26x1qu",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 84,
+    "title": "RubricRobustness: Evaluating the Sensitivity of Rubrics-Based Benchmarks to Simple Perturbations",
+    "authors": [
+      "Manasi Sharma",
+      "Brad Kenstler",
+      "Bing Liu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=2Y3I3i4hoP",
+    "decision": "Accept"
+  },
+  {
+    "number": 85,
+    "title": "Induction Signatures Are Not Enough: A Matched-Compute Study of Load-Bearing Structure in In-Context Learning",
+    "authors": [
+      "Mohammed Sabry Mohammed",
+      "Anya Belz"
+    ],
+    "forum_url": "https://openreview.net/forum?id=wdW6dHfWNz",
+    "decision": "Accept"
+  },
+  {
+    "number": 86,
+    "title": "Do RDB Foundation Models Even Need Data?",
+    "authors": [
+      "Linjie Xu",
+      "Yanlin Zhang",
+      "Quan Gan",
+      "Minjie Wang",
+      "David Wipf"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Lz50laXiSa",
+    "decision": "Accept"
+  },
+  {
+    "number": 88,
+    "title": "Unified Evaluation of Table Embedding Methods Across Multiple Benchmark Scenarios",
+    "authors": [
+      "Ali Younes",
+      "Saeed Ghoorchian",
+      "Maximilian Schambach",
+      "Johannes Höhne"
+    ],
+    "forum_url": "https://openreview.net/forum?id=mtVbdewtQ8",
+    "decision": "Accept"
+  },
+  {
+    "number": 90,
+    "title": "Adversarial Arena: Crowdsourcing Data Generation through Interactive Competition",
+    "authors": [
+      "Prasoon Goyal",
+      "Sattvik Sahai",
+      "Michael Johnston",
+      "Hangjie Shi",
+      "Yao Lu",
+      "Shaohua liu",
+      "Anna Rumshisky",
+      "Rahul Gupta",
+      "Anna Gottardi",
+      "Desheng Zhang",
+      "Lavina Vaz",
+      "Leslie Ball",
+      "Lucy Hu",
+      "Luke Dai",
+      "Samyuth Sagi",
+      "Maureen Murray",
+      "Sankaranarayanan Ananthakrishnan"
+    ],
+    "forum_url": "https://openreview.net/forum?id=bnPatr6ng0",
+    "decision": "Accept"
+  },
+  {
+    "number": 91,
+    "title": "Motion Capture is Not the Target Domain: Scaling Synthetic Data for Learning Motion Representations",
+    "authors": [
+      "Firas Darwish",
+      "George Nicholson",
+      "Aiden Doherty",
+      "Hang Yuan"
+    ],
+    "forum_url": "https://openreview.net/forum?id=XQBqQlexzv",
+    "decision": "Accept"
+  },
+  {
+    "number": 92,
+    "title": "SpreadsheetArena: Decomposing Preference in LLM Generation of Spreadsheet Workbooks",
+    "authors": [
+      "Srivatsa R Kundurthy",
+      "Clara Na",
+      "Michael Handley",
+      "Zach Kirshner",
+      "Chen Bo Calvin Zhang",
+      "Manasi Sharma",
+      "Emma Strubell",
+      "John Ling"
+    ],
+    "forum_url": "https://openreview.net/forum?id=jOCHV9hrRS",
+    "decision": "Accept"
+  },
+  {
+    "number": 93,
+    "title": "GraphPFN: A Prior-Data Fitted Graph Foundation Model",
+    "authors": [
+      "Dmitry Eremeev",
+      "Oleg Platonov",
+      "Gleb Bazhenov",
+      "Artem Babenko",
+      "Liudmila Prokhorenkova"
+    ],
+    "forum_url": "https://openreview.net/forum?id=pkzHrpr7jG",
+    "decision": "Accept"
+  },
+  {
+    "number": 94,
+    "title": "The Viability Boundary of Differential Privacy",
+    "authors": [
+      "Arinbjörn Kolbeinsson",
+      "Benedikt Kolbeinsson"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Pv3PSfaphM",
+    "decision": "Accept"
+  },
+  {
+    "number": 95,
+    "title": "[Short]ACTIVE L EARNING FOR S CALABLE DATA S ELECTION IN I NSTRUCTION T UNING",
+    "authors": [
+      "Lalchand Pandia"
+    ],
+    "forum_url": "https://openreview.net/forum?id=lRQFaoQHbG",
+    "decision": "Accept"
+  },
+  {
+    "number": 96,
+    "title": "On the Strengths and Weaknesses of Data for Open-Set Embodied Assistance",
+    "authors": [
+      "Pradyumna Tambwekar",
+      "Andrew Silva",
+      "Deepak Edakkattil Gopinath",
+      "Jonathan DeCastro",
+      "Xiongyi Cui",
+      "Guy Rosman"
+    ],
+    "forum_url": "https://openreview.net/forum?id=QDe6xMMoEZ",
+    "decision": "Accept"
+  },
+  {
+    "number": 97,
+    "title": "Actor-curator: A Principled Approach to Online Data Selection for RL Post-training",
+    "authors": [
+      "Zhengyao Gu",
+      "Jonathan Light",
+      "Raul Astudillo",
+      "Ziyu Ye",
+      "Langzhou He",
+      "Wei Cheng",
+      "Santiago Paternain",
+      "Philip S. Yu",
+      "Yisong Yue"
+    ],
+    "forum_url": "https://openreview.net/forum?id=KVM64MzqFR",
+    "decision": "Accept"
+  },
+  {
+    "number": 98,
+    "title": "Mix Early, Forget Less: Data Mixing During Pretraining Builds Resistance to Forgetting",
+    "authors": [
+      "Lawrence Feng",
+      "Gaurav Rohit Ghosal",
+      "Jacob Mitchell Springer",
+      "Ziqian Zhong",
+      "Aditi Raghunathan"
+    ],
+    "forum_url": "https://openreview.net/forum?id=XQQ3iJrsJK",
+    "decision": "Accept"
+  },
+  {
+    "number": 99,
+    "title": "Private Linear Regression via a Down-Sensitivity to Privacy Reduction",
+    "authors": [
+      "Ittai Rubinstein",
+      "Chris Ge",
+      "Samuel B. Hopkins"
+    ],
+    "forum_url": "https://openreview.net/forum?id=VvOlArW01N",
+    "decision": "Accept"
+  },
+  {
+    "number": 100,
+    "title": "propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale",
+    "authors": [
+      "Maximilian Idahl",
+      "Benedikt Droste",
+      "Björn Plüster",
+      "Jan Philipp Harries"
+    ],
+    "forum_url": "https://openreview.net/forum?id=17tLF0kWFH",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 101,
+    "title": "Conv-to-Bench: Evaluating Language Models Via User–Assistant Dialogues In Code Tasks",
+    "authors": [
+      "Victor Moreli dos Santos",
+      "André Cerqueira Castro",
+      "Samuel Lopes de Souza Toledo",
+      "Bruno Moreira Lavalli Calura",
+      "Lisandra Cristina de Moura Menezes",
+      "Raul César Reis Mata",
+      "Telma Woerle de Lima Soares",
+      "Bryan Lincoln Marques de Oliveira"
+    ],
+    "forum_url": "https://openreview.net/forum?id=PmkOtKBMr0",
+    "decision": "Accept"
+  },
+  {
+    "number": 102,
+    "title": "Rescaled Influence Functions: Accurate Data Attribution in High Dimension",
+    "authors": [
+      "Ittai Rubinstein",
+      "Samuel B. Hopkins"
+    ],
+    "forum_url": "https://openreview.net/forum?id=edD3qTmoea",
+    "decision": "Accept"
+  },
+  {
+    "number": 104,
+    "title": "Multi-Modal Data Mixtures via Latent Space Coupling for Vision-Language Model Training",
+    "authors": [
+      "Wanyun Xie",
+      "Francesco Tonin",
+      "Volkan Cevher"
+    ],
+    "forum_url": "https://openreview.net/forum?id=pAbTdXyaLm",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 106,
+    "title": "[Short] Towards Large-Scale Heterogeneous Data Organization for Scientific Foundation Models: A Nuclear Fusion Case Study",
+    "authors": [
+      "Nathaniel Chen",
+      "Kouroche Bouchiat",
+      "Peter Steiner",
+      "Azarakhsh Jalalvand",
+      "SangKyeun Kim",
+      "Egemen Kolemen"
+    ],
+    "forum_url": "https://openreview.net/forum?id=dJX9Eu3LEI",
+    "decision": "Accept"
+  },
+  {
+    "number": 107,
+    "title": "[Short] Where Does Olmo Get Its Values?",
+    "authors": [
+      "Xiaoqing Sun",
+      "Arthur Conmy",
+      "Joshua Engels"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Comq3sq0Ki",
+    "decision": "Accept"
+  },
+  {
+    "number": 109,
+    "title": "Adaptive Structured Transformation: Mitigating Distribution Shift in Dense Retrieval Through Training-Time Preprocessing",
+    "authors": [
+      "Xinyan Velocity Yu",
+      "Harsh Jhamtani",
+      "Soham Dan",
+      "Benjamin Van Durme",
+      "Patrick Xia"
+    ],
+    "forum_url": "https://openreview.net/forum?id=EdejHxMf7J",
+    "decision": "Accept"
+  },
+  {
+    "number": 110,
+    "title": "Olmix: A Framework for Data Mixing Throughout LM Development",
+    "authors": [
+      "Mayee F Chen",
+      "Tyler Murray",
+      "David Heineman",
+      "Matt Jordan",
+      "Hannaneh Hajishirzi",
+      "Christopher Re",
+      "Luca Soldaini",
+      "Kyle Lo"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Z46ZBACu1p",
+    "decision": "Accept (Oral)"
+  },
+  {
+    "number": 112,
+    "title": "[Short] A Formal Language Benchmark for LLMs",
+    "authors": [
+      "Bishwamittra Ghosh",
+      "Krishna P. Gummadi",
+      "Evimaria Terzi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=55vLe6IqaF",
+    "decision": "Accept"
+  },
+  {
+    "number": 113,
+    "title": "gen2seg: Generative Models Enable Generalizable Instance Segmentation",
+    "authors": [
+      "Om Khangaonkar",
+      "Hamed Pirsiavash"
+    ],
+    "forum_url": "https://openreview.net/forum?id=1EtvuixzPU",
+    "decision": "Accept"
+  },
+  {
+    "number": 114,
+    "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+    "authors": [
+      "Anmol Goel",
+      "Cornelius Emde",
+      "Sangdoo Yun",
+      "Seong Joon Oh",
+      "Martin Gubri"
+    ],
+    "forum_url": "https://openreview.net/forum?id=N3wsy4dcd3",
+    "decision": "Accept"
+  },
+  {
+    "number": 115,
+    "title": "GUIrilla: A Scalable Framework for Automated Desktop UI Exploration",
+    "authors": [
+      "Sofiya Garkot",
+      "Maksym Shamrai",
+      "Ivan Synytsia",
+      "Mariya Hirna"
+    ],
+    "forum_url": "https://openreview.net/forum?id=OQYImqye6P",
+    "decision": "Accept"
+  },
+  {
+    "number": 117,
+    "title": "Train Smarter, Not Longer: Memorization-Guided Data Reuse for Efficient LLM Training",
+    "authors": [
+      "Jingwei Zuo",
+      "Ilyas Chahed",
+      "Maksim Velikanov",
+      "Cong Zeng",
+      "Dhia Eddine Rhaiem",
+      "Pasquale Balsebre",
+      "Abhay Kumar",
+      "Younes Belkada",
+      "Hakim Hacid"
+    ],
+    "forum_url": "https://openreview.net/forum?id=jTnWdO7Ld4",
+    "decision": "Accept"
+  },
+  {
+    "number": 118,
+    "title": "[Short] Few-Shot Cross-Table Data Mixture in Tabular In-Context Learning: Benefits, Failure Modes, and Alignment",
+    "authors": [
+      "Jia-Wei Liao",
+      "Kuan-Yu Chen",
+      "Yu-Chen Den",
+      "Tien-Hao Chang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=a92XmeUn3U",
+    "decision": "Accept"
+  },
+  {
+    "number": 119,
+    "title": "DISCO: Diversifying Sample Condensation for Efficient Model Evaluation",
+    "authors": [
+      "Alexander Rubinstein",
+      "Benjamin Raible",
+      "Martin Gubri",
+      "Seong Joon Oh"
+    ],
+    "forum_url": "https://openreview.net/forum?id=k5LSArLyUZ",
+    "decision": "Accept"
+  },
+  {
+    "number": 120,
+    "title": "The Silent Brush: Artistic Style Leakage in AI Art Generation",
+    "authors": [
+      "Ninad Joshi",
+      "Ashutosh Ranjan",
+      "Vivek Srivastava",
+      "Shirish Karande"
+    ],
+    "forum_url": "https://openreview.net/forum?id=VA4yVVlwBG",
+    "decision": "Accept"
+  },
+  {
+    "number": 121,
+    "title": "In-Run Data Shapley for Adam Optimizer",
+    "authors": [
+      "Meng Ding",
+      "ZEQING ZHANG",
+      "Di Wang",
+      "Lijie Hu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=S1M5fM23hQ",
+    "decision": "Accept"
+  },
+  {
+    "number": 122,
+    "title": "TRIM: TOKEN-BUDGETED DATA MINING FOR INSTRUCTION TUNING",
+    "authors": [
+      "Md Muntaqim Meherab",
+      "SALMAN",
+      "Naimur Rahman",
+      "Md. Maruf Billah",
+      "Tanvirul Islam",
+      "Dr. Fernaz Narin Nur",
+      "Md. Hasanuzzaman Dipu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=5j1P8SYW9n",
+    "decision": "Accept"
+  },
+  {
+    "number": 123,
+    "title": "A Unified Theory of Random Projection for Influence Functions",
+    "authors": [
+      "Pingbang Hu",
+      "Yuzheng Hu",
+      "Jiaqi W. Ma",
+      "Han Zhao"
+    ],
+    "forum_url": "https://openreview.net/forum?id=bXpvfNBiDR",
+    "decision": "Accept"
+  },
+  {
+    "number": 124,
+    "title": "Multimodal Data Curation Through Ranked Retrieval",
+    "authors": [
+      "Pratyush Muthukumar",
+      "Harshil Kotamreddy",
+      "Sarah Amiraslani",
+      "Tomo Kanazawa",
+      "Ramani Akkati",
+      "Shaan Jain",
+      "Andrew Mathau"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Qi4gR4xemk",
+    "decision": "Accept"
+  },
+  {
+    "number": 125,
+    "title": "AI Scientist Via Synthetic Task Scaling",
+    "authors": [
+      "Ziyang Cai",
+      "Harkirat Behl"
+    ],
+    "forum_url": "https://openreview.net/forum?id=QXjUC4COPp",
+    "decision": "Accept"
+  },
+  {
+    "number": 126,
+    "title": "[Short] Studying Memorization Dynamics in Large Language Models Across Pre-Training",
+    "authors": [
+      "Kaustubh Ponkshe",
+      "Raghav Singhal",
+      "Daniele Affinita",
+      "Martin Jaggi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=H8kNj0g1as",
+    "decision": "Accept"
+  },
+  {
+    "number": 127,
+    "title": "Why Diffusion Language Models Struggle with Truly Parallel (Non-Autoregressive) Decoding?",
+    "authors": [
+      "Pengxiang Li",
+      "Dilxat Muhtar",
+      "Tianlong Chen",
+      "Lu Yin",
+      "Shiwei Liu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=PwoVbbdyfL",
+    "decision": "Accept"
+  },
+  {
+    "number": 128,
+    "title": "Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods",
+    "authors": [
+      "Wanru Zhao",
+      "Yihong Chen",
+      "Yuzhi Tang",
+      "Wentao Ma",
+      "Shengchao Hu",
+      "Shell Xu Hu",
+      "Alex Iacob",
+      "Abhinav Mehrotra",
+      "Nicholas D. Lane"
+    ],
+    "forum_url": "https://openreview.net/forum?id=zgn3P31NWf",
+    "decision": "Accept"
+  },
+  {
+    "number": 129,
+    "title": "Benign Overfitting in Adversarial Training for Vision Transformers",
+    "authors": [
+      "Jiaming Zhang",
+      "Meng Ding",
+      "Shaopeng Fu",
+      "Jingfeng Zhang",
+      "Di Wang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=9aWJ3xIR6s",
+    "decision": "Accept"
+  },
+  {
+    "number": 130,
+    "title": "Understanding the Impact of Differentially Private Training on Memorization of Long-Tailed Data",
+    "authors": [
+      "Jiaming Zhang",
+      "Huanyi Xie",
+      "Meng Ding",
+      "Shaopeng Fu",
+      "Jinyan Liu",
+      "Di Wang"
+    ],
+    "forum_url": "https://openreview.net/forum?id=UXV4V8vuQq",
+    "decision": "Accept"
+  },
+  {
+    "number": 132,
+    "title": "[Short] DSL-Monkeys: Self-Generated In-Context Examples for Low-Resource GPU DSL Kernels",
+    "authors": [
+      "Nathan Paek",
+      "Simon Guo",
+      "Vishnu Sarukkai",
+      "Willy Chan",
+      "William Hu",
+      "Ethan Boneh",
+      "Simran Arora",
+      "Ludwig Schmidt",
+      "Kayvon Fatahalian",
+      "Azalia Mirhoseini"
+    ],
+    "forum_url": "https://openreview.net/forum?id=WJiJs9k2Lo",
+    "decision": "Accept"
+  },
+  {
+    "number": 133,
+    "title": "[Short] Motion Attribution for Video Generation",
+    "authors": [
+      "Xindi Wu",
+      "Despoina Paschalidou",
+      "Jun Gao",
+      "Antonio Torralba",
+      "Laura Leal-Taixé",
+      "Olga Russakovsky",
+      "Sanja Fidler",
+      "Jonathan Lorraine"
+    ],
+    "forum_url": "https://openreview.net/forum?id=U9iNS0YHD5",
+    "decision": "Accept"
+  },
+  {
+    "number": 134,
+    "title": "Non-Local Data Attribution for On-policy Reinforcement Learning",
+    "authors": [
+      "Shixuan Liu",
+      "Yuzheng Hu",
+      "Han Zhao",
+      "Jiaqi W. Ma"
+    ],
+    "forum_url": "https://openreview.net/forum?id=tYEJvG7njT",
+    "decision": "Accept"
+  },
+  {
+    "number": 135,
+    "title": "Visual Compositional Tuning",
+    "authors": [
+      "Xindi Wu",
+      "Hee Seung Hwang",
+      "Polina Kirichenko",
+      "Esin Tureci",
+      "Olga Russakovsky"
+    ],
+    "forum_url": "https://openreview.net/forum?id=gluIvAwe93",
+    "decision": "Accept"
+  },
+  {
+    "number": 136,
+    "title": "ESDAE: Evaluating Synthetic Data for Agent Evaluation",
+    "authors": [
+      "Shuaiqi Wang",
+      "Aadyaa Maddi",
+      "Zinan Lin",
+      "Giulia Fanti"
+    ],
+    "forum_url": "https://openreview.net/forum?id=yweA1eu5eP",
+    "decision": "Accept"
+  },
+  {
+    "number": 137,
+    "title": "AdaProb: Efficient Machine Unlearning via Adaptive Probability",
+    "authors": [
+      "Zihao Zhao",
+      "Yuchen Yang",
+      "Anjalie Field",
+      "Yinzhi Cao"
+    ],
+    "forum_url": "https://openreview.net/forum?id=uw7F7Ssz4l",
+    "decision": "Accept"
+  },
+  {
+    "number": 140,
+    "title": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+    "authors": [
+      "Shiva Krishna Reddy Malay",
+      "Shravan Nayak",
+      "Aman Tiwari",
+      "Jishnu Sethumadhavan Nair",
+      "Sathwik Tejaswi Madhusudhan",
+      "Sagar Davasam",
+      "Srinivas Sunkara",
+      "Sai Rajeswar"
+    ],
+    "forum_url": "https://openreview.net/forum?id=wmpZGXhuHP",
+    "decision": "Accept"
+  },
+  {
+    "number": 141,
+    "title": "[Short] Downstream Effects of Translation Scale with Language Difficulty",
+    "authors": [
+      "Aditya V. Kulkarni",
+      "Dharmam Savani",
+      "Ammar Ahmed Pallikonda Latheef",
+      "Pritam Mukherjee",
+      "Jacob M Luber",
+      "Paul Yi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=O8ARM1lflQ",
+    "decision": "Accept"
+  },
+  {
+    "number": 142,
+    "title": "VULCAN: Where Agents Learn by Living in Simulated Tool Environments",
+    "authors": [
+      "Amir Saeidi",
+      "Chitta Baral",
+      "Ahmed Hassan Awadallah",
+      "Harkirat Behl"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Ht4HB4pIQq",
+    "decision": "Accept"
+  },
+  {
+    "number": 143,
+    "title": "[Short] RIFT: A RubrIc Failure Mode Taxonomy and Automated Diagnostics",
+    "authors": [
+      "Zhengyang Qi",
+      "Charles Andrew Dickens",
+      "Derek Pham",
+      "Amanda Dsouza",
+      "Armin Parchami",
+      "Frederic Sala",
+      "Paroma Varma"
+    ],
+    "forum_url": "https://openreview.net/forum?id=tCxZYDLvuu",
+    "decision": "Accept"
+  },
+  {
+    "number": 144,
+    "title": "Evaluating Frontier Agents on End-to-End Investment Banking Workflows",
+    "authors": [
+      "Elaine Lau",
+      "Rosemary Wei",
+      "Guram Gogia",
+      "Ronak Chaudhary",
+      "Yi Liu",
+      "Saed Qunbar",
+      "Hui Wen Goh",
+      "Scott Millslagle",
+      "Samuel Eshun Danquah",
+      "Punit Arani",
+      "Ray Epps",
+      "Markus Dücker",
+      "Abdullah Arif",
+      "Asrith Devalaraju",
+      "Varsha Sandadi",
+      "Haemi Nam",
+      "Sahil Bhaiwala",
+      "Skyler Wang",
+      "Anish Athalye",
+      "Jonas Mueller",
+      "Francisco Guzmán"
+    ],
+    "forum_url": "https://openreview.net/forum?id=71fsy7et0p",
+    "decision": "Accept"
+  },
+  {
+    "number": 145,
+    "title": "Privileged Information Distillation for Language Models",
+    "authors": [
+      "Emiliano Penaloza",
+      "Dheeraj Vattikonda",
+      "Nicolas Gontier",
+      "Alexandre Lacoste",
+      "Laurent Charlin",
+      "Massimo Caccia"
+    ],
+    "forum_url": "https://openreview.net/forum?id=uWlyzJOm3B",
+    "decision": "Accept"
+  },
+  {
+    "number": 146,
+    "title": "Matched Data, Better Models: Target Aligned Data Filtering with Sparse Autoencoders",
+    "authors": [
+      "Arnav Mohanty Das",
+      "Gantavya Bhatt",
+      "Sahil Verma",
+      "Yiping Wang",
+      "Viswa Virinchi Muppirala",
+      "Jeff Bilmes"
+    ],
+    "forum_url": "https://openreview.net/forum?id=H6B9k2QZ7D",
+    "decision": "Accept"
+  },
+  {
+    "number": 149,
+    "title": "RelBench v2: A Large-Scale Benchmark and Relational Data Repository",
+    "authors": [
+      "Justin Gu",
+      "Rishabh Ranjan",
+      "Charilaos I. Kanatsoulis",
+      "Haiming Tang",
+      "Martin Jurkovič",
+      "Valter Hudovernik",
+      "Mark Znidar",
+      "Pranshu Chaturvedi",
+      "Parth Shroff",
+      "Fengyu Li",
+      "Jure Leskovec"
+    ],
+    "forum_url": "https://openreview.net/forum?id=kplDfjCbC7",
+    "decision": "Accept"
+  },
+  {
+    "number": 150,
+    "title": "OASIS: Online Sample Selection for Continual Instruction Tuning",
+    "authors": [
+      "Minjae Lee",
+      "Minhyuk Seo",
+      "Tingyu Qu",
+      "Tinne Tuytelaars",
+      "Jonghyun Choi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=UiZwM8yV6o",
+    "decision": "Accept"
+  },
+  {
+    "number": 152,
+    "title": "The Chicken and Egg Dilemma: Co-optimizing Data and Model Configurations for LLMs",
+    "authors": [
+      "Zhiliang Chen",
+      "Alfred Wei Lun Leong",
+      "Shao Yong Ong",
+      "Apivich Hemachandra",
+      "Gregory Kang Ruey Lau",
+      "Chuan-Sheng Foo",
+      "Zhengyuan Liu",
+      "Nancy F. Chen",
+      "Bryan Kian Hsiang Low"
+    ],
+    "forum_url": "https://openreview.net/forum?id=3nstAbMhTL",
+    "decision": "Accept"
+  },
+  {
+    "number": 153,
+    "title": "Positive Mining from LLM Seeds: A Semi-Supervised Graph Based Approach to Train Rare Event Classifiers",
+    "authors": [
+      "Sasan Tavakkol",
+      "Lin Chen",
+      "Max Springer",
+      "Abigail Schantz",
+      "Blaž Bratanič",
+      "Vincent Cohen-Addad",
+      "Mohammadhossein Bateni"
+    ],
+    "forum_url": "https://openreview.net/forum?id=OhlyIBBE9k",
+    "decision": "Accept"
+  },
+  {
+    "number": 156,
+    "title": "MixAtlas: Uncertainty-aware Data Mixture for Multimodal LLM Midtraining",
+    "authors": [
+      "Bingbing Wen",
+      "Sirajul Salekin",
+      "Feiyang Kang",
+      "Bill Howe",
+      "Lucy Lu Wang",
+      "Javier Movellan",
+      "Manjot Bilkhu"
+    ],
+    "forum_url": "https://openreview.net/forum?id=67r0Aq1XWL",
+    "decision": "Accept"
+  },
+  {
+    "number": 158,
+    "title": "[Short] STRIDE: Training data attribution can be estimated in activation space",
+    "authors": [
+      "Abir Harrasse",
+      "Rishit Dagli",
+      "Amir Abdullah",
+      "Zhijing Jin"
+    ],
+    "forum_url": "https://openreview.net/forum?id=FaZvqJOG1k",
+    "decision": "Accept"
+  },
+  {
+    "number": 159,
+    "title": "Geometry-Preserving Coresets for Quantized Foundation Models in Remote Sensing",
+    "authors": [
+      "Tushar Shinde"
+    ],
+    "forum_url": "https://openreview.net/forum?id=ysypkESJPs",
+    "decision": "Accept"
+  },
+  {
+    "number": 160,
+    "title": "Inference-Time Distillation: Cost-Efficient Agents Without Fine-Tuning or Manual Prompt Engineering",
+    "authors": [
+      "Vishnu Sarukkai",
+      "Asanshay Gupta",
+      "James Hong",
+      "Michaël Gharbi",
+      "Kayvon Fatahalian"
+    ],
+    "forum_url": "https://openreview.net/forum?id=nCEdAM5m5T",
+    "decision": "Accept"
+  },
+  {
+    "number": 161,
+    "title": "Less is More: Adaptive Coverage Sampling for Synthetic Training Data",
+    "authors": [
+      "Sasan Tavakkol",
+      "Max Springer",
+      "Mohammadhossein Bateni",
+      "Vincent Cohen-Addad",
+      "Neslihan Bulut",
+      "MohammadTaghi Hajiaghayi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=Z7Vw8NxQqM",
+    "decision": "Accept"
+  },
+  {
+    "number": 163,
+    "title": "Toward Cross-Lingual Quality Classifiers for Multilingual Pretraining Data Selection",
+    "authors": [
+      "Yassine Turki",
+      "Vinko Sabolčec",
+      "Bettina Messmer",
+      "Martin Jaggi"
+    ],
+    "forum_url": "https://openreview.net/forum?id=b5y9sVqyZx",
+    "decision": "Accept"
+  },
+  {
+    "number": 165,
+    "title": "[Short] Beyond Data Size: Exploring the Impact of Dataset Diversity and Density in Self-Distillation Learning",
+    "authors": [
+      "Alvard Barseghyan",
+      "Ani Vanyan",
+      "Hakob Tamazyan",
+      "Hrant Khachatrian"
+    ],
+    "forum_url": "https://openreview.net/forum?id=YZcVtCc7qM",
+    "decision": "Accept"
+  },
+  {
+    "number": 167,
+    "title": "jina-vlm: Small Multilingual Vision Language Model",
+    "authors": [
+      "Andreas Koukounas",
+      "Georgios Mastrapas",
+      "Florian Hönicke",
+      "Sedigheh Eslami",
+      "Guillaume Roncari",
+      "Scott Martens",
+      "Han Xiao"
+    ],
+    "forum_url": "https://openreview.net/forum?id=ZQehNUJEKe",
+    "decision": "Accept"
+  },
+  {
+    "number": 170,
+    "title": "Bridging the Sim-to-real Gap in RF Localization with Large-Scale Synthetic Pretraining",
+    "authors": [
+      "Armen Manukyan",
+      "Rafayel Mkrtchyan",
+      "Ararat Saribekyan",
+      "Theofanis Raptis",
+      "Hrant Khachatrian"
+    ],
+    "forum_url": "https://openreview.net/forum?id=VzDCtHKr8w",
+    "decision": "Accept"
+  },
+  {
+    "number": 172,
+    "title": "Verifying the Verifiers: Failure Attribution for Benchmark Diagnostics and Training Data Curation",
+    "authors": [
+      "Jesse Hu",
+      "Pratyush Shukla",
+      "Ke Huang",
+      "Meji Abidoye"
+    ],
+    "forum_url": "https://openreview.net/forum?id=9cP3pDqcrZ",
+    "decision": "Accept"
+  }
+]

@@ -37,6 +37,35 @@
       white-space: nowrap;
       width: 1%;
     }
+    .oral-papers-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .oral-papers-list li {
+      border-left: 4px solid #DAA520;
+      padding: 8px 12px;
+      margin: 10px 0;
+      background: rgba(218, 165, 32, 0.06);
+      border-radius: 0 4px 4px 0;
+    }
+    .awardee-chip {
+      display: inline-block;
+      padding: 4px 12px;
+      margin-left: 6px;
+      border-radius: 12px;
+      font-size: 0.95em;
+      font-weight: 500;
+    }
+    .awardee-chip.early {
+      background: #d4f1f0;
+      color: #1d6864;
+      border: 1px solid #8ccfcb;
+    }
+    .awardee-chip.reviewer {
+      background: #e8e4f8;
+      color: #4a3b8e;
+      border: 1px solid #b4a8e0;
+    }
   </style>
 
   <!-- =======================================================
@@ -76,6 +105,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#cfp">CFP</a></li>
           <li><a class="nav-link scrollto" href="#awards">Awards</a></li>
+          <li><a class="nav-link scrollto" href="#papers">Papers</a></li>
           <li><a class="nav-link scrollto" href="#program">Program</a></li>
           <li><a class="nav-link scrollto" href="#speaker">Speakers</a></li>
           <li><a class="nav-link scrollto" href="#org">Organization</a></li>
@@ -393,7 +423,7 @@
             <strong>one best paper honorable mention</strong> to acknowledge outstanding research contributions. (<i>TBD</i>)
           </p>
           <p><b>Oral Presentations:</b></p>
-          <ul>
+          <ul class="oral-papers-list">
             <li><a href="https://openreview.net/forum?id=iV1TS1z1up" target="_blank" rel="noopener">The Capability Frontier: Benchmarks Miss 82% of Model Performance</a><br><i>Bradley Fowler, Ryan Smith, Daniel Thi Graviet, William Myers, Joshua Greaves, Narmeen Fatimah Oozeer, Antía García, Philip Quirke, Fazl Barez, Amir Abdullah, Shriyash Kaustubh Upadhyay</i></li>
             <li><a href="https://openreview.net/forum?id=P0fB2DZlcL" target="_blank" rel="noopener">Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts</a><br><i>Jiayuan Ye, Vitaly Feldman, Kunal Talwar</i></li>
             <li><a href="https://openreview.net/forum?id=63Is26x1qu" target="_blank" rel="noopener">Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model</a><br><i>Jacqueline He, Jonathan Hayase, Wen-tau Yih, Sewoong Oh, Luke Zettlemoyer, Pang Wei Koh</i></li>
@@ -425,7 +455,9 @@
               </b>
             </li>
           </ul>
-          <p><b>Awardees:</b> Abhranil Chandra, Jacqueline He, Lorena Raichle, Victor Moreli dos Santos, Tushar Shinde, Qingchuan Yang, Huaqing Zhang</p>
+          <p>
+            <span class="awardee-chip early"><b>Awardees:</b> Abhranil Chandra, Jacqueline He, Lorena Raichle, Victor Moreli dos Santos, Tushar Shinde, Qingchuan Yang, Huaqing Zhang</span>
+          </p>
         </div>
 
         <!-- Best Reviewers Free Registration -->
@@ -451,14 +483,33 @@
               </b>
             </li>
           </ul>
-          <p><b>Awardees:</b> Firas Darwish, Anmol Kabra</p>
+          <p>
+            <span class="awardee-chip reviewer"><b>Awardees:</b> Firas Darwish, Anmol Kabra</span>
+          </p>
           </ul>
         </div>
 
       </div>
     </section>
     <!-- End Awards Section -->
- 
+
+
+    <!-- ======= Accepted Papers Section ======= -->
+    <section id="papers" class="faq">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Accepted Papers</h2>
+          <p>Accepted Papers</p>
+        </div>
+        <p>
+          The complete list of accepted papers is also available on
+          <a href="https://openreview.net/group?id=ICLR.cc/2026/Workshop/DATA-FM" target="_blank" rel="noopener">OpenReview</a>.
+          Click a paper title to view it on OpenReview.
+        </p>
+        <div id="accepted-papers-list" data-aos="fade-up"></div>
+      </div>
+    </section>
+    <!-- End Accepted Papers Section -->
 
 
         <!-- ======= Program Section ======= -->
@@ -471,7 +522,6 @@
         <ul style="list-style: disc; padding-left: 20px; margin-bottom: 10px;">
           <li>In person location: <b>Riocentro Exhibition and Convention Center, Room 203 A+B, Rio de Janeiro, Brazil</b></li>
           <li>ICLR page: <a href="https://iclr.cc/virtual/2026/workshop/10000798" target="_blank">https://iclr.cc/virtual/2026/workshop/10000798</a></li>
-          <li>OpenReview page for all accepted papers: <a href="https://openreview.net/group?id=ICLR.cc/2026/Workshop/DATA-FM" target="_blank">https://openreview.net/group?id=ICLR.cc/2026/Workshop/DATA-FM</a></li>
         </ul>
         <p>All times listed below are in Brasília Time BRT (GMT-3).</p>
         <br />
@@ -1126,6 +1176,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/data/papers.js"></script>
+  <script src="assets/js/papers.js"></script>
 
 </body>
 
