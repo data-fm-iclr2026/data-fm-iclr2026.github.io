@@ -42,11 +42,12 @@
       padding-left: 0;
     }
     .oral-papers-list li {
-      border-left: 4px solid #DAA520;
+      border-left: 4px solid #5b9bd5;
       padding: 8px 12px;
       margin: 10px 0;
-      background: rgba(218, 165, 32, 0.06);
+      background: #ffffff;
       border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
     .awardee-chip {
       display: inline-block;
@@ -65,6 +66,88 @@
       background: #e8e4f8;
       color: #4a3b8e;
       border: 1px solid #b4a8e0;
+    }
+    .paper-award-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 0.85em;
+      font-weight: 600;
+      margin-left: 8px;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    .paper-award-badge.best {
+      background: linear-gradient(135deg, #FFE680, #FFB74D);
+      color: #5a3e00;
+      border: 1px solid #DAA520;
+      box-shadow: 0 1px 3px rgba(218, 165, 32, 0.3);
+    }
+    .paper-award-badge.honorable {
+      background: linear-gradient(135deg, #F0F0F0, #C8C8C8);
+      color: #3a3a3a;
+      border: 1px solid #A0A0A0;
+      box-shadow: 0 1px 3px rgba(160, 160, 160, 0.3);
+    }
+    /* Highlight the awarded papers more strongly */
+    .oral-papers-list li.is-best {
+      border-left: 4px solid #DAA520;
+      background: linear-gradient(90deg, rgba(255, 215, 0, 0.22), rgba(255, 215, 0, 0.06));
+    }
+    .oral-papers-list li.is-honorable {
+      border-left: 4px solid #8a8a8a;
+      background: linear-gradient(90deg, rgba(192, 192, 192, 0.28), rgba(192, 192, 192, 0.06));
+    }
+    /* Featured-winner callout cards */
+    .award-winners {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 18px 0 24px 0;
+    }
+    @media (max-width: 768px) {
+      .award-winners { grid-template-columns: 1fr; }
+    }
+    .award-card {
+      padding: 18px 20px;
+      border-radius: 8px;
+      border: 1px solid;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      position: relative;
+    }
+    .award-card.best {
+      background: linear-gradient(135deg, #FFF8DC 0%, #FFE680 100%);
+      border-color: #DAA520;
+    }
+    .award-card.honorable {
+      background: linear-gradient(135deg, #FAFAFA 0%, #DCDCDC 100%);
+      border-color: #A0A0A0;
+    }
+    .award-card .award-label {
+      display: inline-block;
+      font-size: 0.85em;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .award-card.best .award-label { color: #8a6d00; }
+    .award-card.honorable .award-label { color: #555; }
+    .award-card .award-title {
+      font-size: 1.1em;
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 6px;
+    }
+    .award-card .award-title a {
+      color: #2a2c39;
+      text-decoration: none;
+    }
+    .award-card .award-title a:hover { text-decoration: underline; }
+    .award-card .award-authors {
+      font-style: italic;
+      font-size: 0.92em;
+      color: #555;
     }
   </style>
 
@@ -418,14 +501,33 @@
         <div class="award-section" data-aos="fade-up">
           <h5><b>Best Paper Awards & Oral Presentations</b></h5>
           <p>
-            We selected 6 submissions for oral presentations (15 minutes each). From them, we will recognize <strong>one best paper award</strong> and
-            <strong>one best paper honorable mention</strong> to acknowledge outstanding research contributions. (<i>TBD</i>)
+            We selected 6 submissions for oral presentations (15 minutes each). Among them, we are pleased to recognize
+            one <strong>Best Paper Award</strong> 🏆 and one <strong>Best Paper Honorable Mention</strong> 🥈
+            for outstanding research contributions. Congratulations to the awardees!
           </p>
-          <p><b>Oral Presentations:</b></p>
+
+          <div class="award-winners">
+            <div class="award-card best">
+              <div class="award-label">🏆 Best Paper Award</div>
+              <div class="award-title">
+                <a href="https://openreview.net/forum?id=P0fB2DZlcL" target="_blank" rel="noopener">Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts</a>
+              </div>
+              <div class="award-authors">Jiayuan Ye, Vitaly Feldman, Kunal Talwar</div>
+            </div>
+            <div class="award-card honorable">
+              <div class="award-label">🥈 Best Paper Honorable Mention</div>
+              <div class="award-title">
+                <a href="https://openreview.net/forum?id=63Is26x1qu" target="_blank" rel="noopener">Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model</a>
+              </div>
+              <div class="award-authors">Jacqueline He, Jonathan Hayase, Wen-tau Yih, Sewoong Oh, Luke Zettlemoyer, Pang Wei Koh</div>
+            </div>
+          </div>
+
+          <p><b>All 6 Oral Presentations:</b></p>
           <ul class="oral-papers-list">
             <li><a href="https://openreview.net/forum?id=iV1TS1z1up" target="_blank" rel="noopener">The Capability Frontier: Benchmarks Miss 82% of Model Performance</a><br><i>Bradley Fowler, Ryan Smith, Daniel Thi Graviet, William Myers, Joshua Greaves, Narmeen Fatimah Oozeer, Antía García, Philip Quirke, Fazl Barez, Amir Abdullah, Shriyash Kaustubh Upadhyay</i></li>
-            <li><a href="https://openreview.net/forum?id=P0fB2DZlcL" target="_blank" rel="noopener">Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts</a><br><i>Jiayuan Ye, Vitaly Feldman, Kunal Talwar</i></li>
-            <li><a href="https://openreview.net/forum?id=63Is26x1qu" target="_blank" rel="noopener">Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model</a><br><i>Jacqueline He, Jonathan Hayase, Wen-tau Yih, Sewoong Oh, Luke Zettlemoyer, Pang Wei Koh</i></li>
+            <li class="is-best"><a href="https://openreview.net/forum?id=P0fB2DZlcL" target="_blank" rel="noopener">Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts</a><span class="paper-award-badge best">🏆 Best Paper</span><br><i>Jiayuan Ye, Vitaly Feldman, Kunal Talwar</i></li>
+            <li class="is-honorable"><a href="https://openreview.net/forum?id=63Is26x1qu" target="_blank" rel="noopener">Anchored Decoding: Provably Reducing Copyright Risk for Any Language Model</a><span class="paper-award-badge honorable">🥈 Honorable Mention</span><br><i>Jacqueline He, Jonathan Hayase, Wen-tau Yih, Sewoong Oh, Luke Zettlemoyer, Pang Wei Koh</i></li>
             <li><a href="https://openreview.net/forum?id=17tLF0kWFH" target="_blank" rel="noopener">propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale</a><br><i>Maximilian Idahl, Benedikt Droste, Björn Plüster, Jan Philipp Harries</i></li>
             <li><a href="https://openreview.net/forum?id=pAbTdXyaLm" target="_blank" rel="noopener">Multi-Modal Data Mixtures via Latent Space Coupling for Vision-Language Model Training</a><br><i>Wanyun Xie, Francesco Tonin, Volkan Cevher</i></li>
             <li><a href="https://openreview.net/forum?id=Z46ZBACu1p" target="_blank" rel="noopener">Olmix: A Framework for Data Mixing Throughout LM Development</a><br><i>Mayee F Chen, Tyler Murray, David Heineman, Matt Jordan, Hannaneh Hajishirzi, Christopher Re, Luca Soldaini, Kyle Lo</i></li>
@@ -564,7 +666,21 @@
               <td>9:40 - 10:10 AM</td>
               <td>
                 Invited Talk: <a href="https://www.sewonmin.com/" target="_blank">Sewon Min</a> 🤝🗣️ <br />
-                <b>TBD</b>
+                <b>FlexOlmo: LLMs for Distributed Data Use</b>
+                <div style="margin-top: 5px;">
+                  <details style="display: inline-block; margin-right: 10px; vertical-align: top;">
+                    <summary style="cursor: pointer; color: #007bff;">Abstract</summary>
+                    <p style="margin-top: 5px; font-size: 0.95em;">
+                      Large language models are often limited by data, especially when valuable datasets are <i>fragmented</i> across institutions and cannot be shared. We introduce FlexOlmo, a new class of Mixture-of-Experts (MoE) models designed for flexible, modular data use. In FlexOlmo, expert modules are trained independently on separate datasets and later merged seamlessly into a single model. This enables distributed training without data sharing, supports the use of closed datasets, and allows data to be opt-in or opt-out at inference time. We scale FlexOlmo to 37B parameters (20B active) and evaluate on 31 diverse downstream tasks. FlexOlmo significantly outperforms models trained on public data only and approaches the performance of an upper-bound model trained on all datasets. By enabling modular integration of closed data while respecting data ownership and control, FlexOlmo offers a practical path toward collaborative, continuous model development.
+                    </p>
+                  </details>
+                  <details style="display: inline-block; vertical-align: top;">
+                    <summary style="cursor: pointer; color: #8e44ad;">Bio</summary>
+                    <p style="margin-top: 5px; font-size: 0.95em;">
+                      Sewon Min is an Assistant Professor in EECS at UC Berkeley, affiliated with Berkeley AI Research (BAIR), and a Research Scientist at the Allen Institute for AI. Her research focuses on understanding and advancing large language models (LLMs), with the goal of improving their performance, flexibility, adaptability, factuality, and reasoning through new architectures and training methods. She also develops tools and infrastructure for data and model auditing. Her work has received multiple best paper awards, dissertation awards from ACM, ACL, and AAAI, and several fellowships. She earned her Ph.D. from the University of Washington and has held research positions at Meta AI, Google, and Salesforce.
+                    </p>
+                  </details>
+                </div>
               </td>
             </tr>
             <tr>
@@ -632,7 +748,15 @@
               <td>1:30 - 2:00 PM</td>
               <td>
                 Invited Talk: <a href="https://www.niebles.net/" target="_blank">Juan Carlos Niebles</a> 🤝🗣️ <br />
-                <b>TBD</b>
+                <b>Agentic Ambient Intelligence: Perception, Reasoning & Action</b>
+                <div style="margin-top: 5px;">
+                  <details style="display: inline-block; vertical-align: top;">
+                    <summary style="cursor: pointer; color: #8e44ad;">Bio</summary>
+                    <p style="margin-top: 5px; font-size: 0.95em;">
+                      Juan Carlos Niebles is Research Director at Salesforce and Adjunct Professor of Computer Science at Stanford, where he is also co-Director of the Stanford Vision and Learning Lab. His research spans computer vision, machine learning, multimodal AI, and autonomous agents. Previously, he held research leadership roles at the Stanford-Toyota Center for AI Research and Stanford AI Lab, and was also an Associate Professor at Universidad del Norte in Colombia. He earned his engineering degree from Universidad del Norte, his M.S. from UIUC, and his Ph.D. from Princeton. He has published over 100 papers in top venues, serves in leadership roles for major vision conferences and IEEE TPAMI, and has received honors including the Google Faculty Research Award, Microsoft Research Faculty Fellowship, and Fulbright Fellowship.
+                    </p>
+                  </details>
+                </div>
               </td>
             </tr>
             <tr>
